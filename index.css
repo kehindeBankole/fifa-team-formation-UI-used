@@ -1,0 +1,72 @@
+body {
+    background-color: #666666;
+    color: white;
+}
+
+.outer {
+    position: relative;
+    max-width: 100%;
+    min-height: 75%;
+    border: 2px solid #669999;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.upperimage img {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 100%;
+    display: inline-block;
+}
+
+.upperimage::before {
+    position: absolute;
+    content: '';
+    top: 9rem;
+    border: 4px solid #33cc33;
+    border-radius: 25px;
+    width: 8rem;
+}
+
+.outer img {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.outer .f1 {
+    position: absolute;
+    top: 2rem;
+    left: 35%
+}
+
+.outer .f2 {
+    position: absolute;
+    top: 2rem;
+    right: 35%;
+}
+
+.outer .f3 {
+    position: absolute;
+    top: 10rem;
+    left: 10%;
+}
+
+.outer .f4 {
+    position: absolute;
+    top: 10rem;
+    right: 10%;
+}
+
+.outer .f5 {
+    position: absolute;
+    top: 15rem;
+    left: 35%;
+}
+
+.outer .f6 {
+    position: absolute;
+    top: 15rem;
+    right: 35%;
+}
